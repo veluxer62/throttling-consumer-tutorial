@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    username: root
+    password: password
+    url: jdbc:postgresql://localhost:9999/test_database
+    driver-class-name: org.postgresql.Driver
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: mq_user
+    password: mq_password
+server:
+  port: 8081
